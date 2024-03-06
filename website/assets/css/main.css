@@ -1832,19 +1832,9 @@ p {
 .hero-section .hero-img .hero-img-right {
   position: relative;
 }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-section .hero-img .hero-img-right {
-    position: static;
-  }
+.hero-section .hero-img .hero-img-right img {
+  width: 100%;
 }
-
-@media (max-width: 767px) {
-  .hero-section .hero-img .hero-img-right {
-    position: static;
-  }
-}
-
 .hero-section .hero-img img.dot-shape {
   position: absolute;
   left: -60px;
